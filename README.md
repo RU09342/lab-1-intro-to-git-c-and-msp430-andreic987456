@@ -1,3 +1,4 @@
+my Name is Andrei Creanga
 # Lab Exercise 1: Introduction to C, Git, and the MSP430
 This lab is meant to be a gentle introduction to working with the code provided over github, adding your own code, C programming, and getting your launchpads to work. The due date for this Lab exercise is the date of submission for the Milestone project.
 
@@ -38,3 +39,5 @@ Currently, your repository will be graded on the following pillars:
 * How easy is it to utilize/implement your code?
 
 The main reason we are utilizing git is so we can generate libraries of example code and drivers for you to use in the future and show to potential employers what you have done.
+
+My name: Andrei Creanga
