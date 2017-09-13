@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{
+    int n,num1,num2,answer;
+    
+    
+printf("what operation do you want to do?\n"); //open to what operation is being used 
+printf("press 1 for addition\n");
+printf("press 2 for subtraction\n");
+printf("Press 3 for multiplication\n");
+printf("press 4 for division\n");
+scanf("%d",&n);                                //scans the input
+printf(" enter a number\n");                   //input 1
+scanf("%d",&num1);
+printf("enter second number\n");              //input 2
+scanf("%d",&num2);
+
+switch (n)                                      //based on input choose case for that function, includes which operation is indicated and the output number
+{case 1:answer=num1+num2;
+printf("addition = %d",answer);
+break;
+case 2: answer= num1-num2;
+printf("subtraction = %d",answer);
+break;
+case 3: answer=num1*num2;
+printf("multiplaction = %d", answer);
+break;
+case 4 : answer= num1/num2;
+printf("division = %d", answer);
+break;
+default: printf("you must input a number\n");
+}
+
+
+
+
+
+    return 0;
+}
